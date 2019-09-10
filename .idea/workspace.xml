@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f276f4-c00e-45c4-a112-e9bf611d2dc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/page/SignIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/UserProfile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/DriverWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/DriverWrapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/SolventSelenium.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/WebDriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/WebDriverFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/HomePageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/Header.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/UserProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/UserProfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/HeaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/HeaderTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/framework/DriverWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/DriverWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/SolventSelenium.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/WebDriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/HeaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/HeaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/HeaderTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +32,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Qc8wlDaP9hldfCYc6Hfo9Oy2ge" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -129,7 +124,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

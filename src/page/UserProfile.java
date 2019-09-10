@@ -21,7 +21,7 @@ public class UserProfile {
     protected By BUILDING = By.id("building");
     protected By APARTMENT = By.id("apartment");
     protected By ZIP_CODE = By.id("zipCode");
-    protected By UPDATE_PROFILE = By.cssSelector("input[value='Update Profile']");
+    private By UPDATE_PROFILE = By.cssSelector("input[value='Update Profile']");
 
 
     private Boolean checkDataValidity(By key) {
@@ -34,5 +34,7 @@ public class UserProfile {
         browser.enterData(key, value);
         return checkDataValidity(key);
     }
-
+    public void clickUpdateProfile() {
+        browser.clickElement(UPDATE_PROFILE);
+    }
 }

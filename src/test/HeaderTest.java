@@ -11,9 +11,10 @@ public class HeaderTest extends TestBase {
         header.clickIcon();
         header.selectOption("Log in");
         signIn.enter_credentials("user@gmail.com", "user");
+        header.clickIcon();
         header.selectOption("Profile");
-        Boolean temp = userProfile.enterDataInTextbox(FIRST_NAME, "Andrew");
-        System.out.println(temp);
+        userProfile.enterDataInTextbox(FIRST_NAME, "Andrew");
+        userProfile.clickUpdateProfile();
 
     }
 }
