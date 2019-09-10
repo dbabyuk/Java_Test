@@ -1,7 +1,6 @@
 package framework;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 public class SolventSelenium {
@@ -12,7 +11,4 @@ public class SolventSelenium {
         PageFactory.initElements(driver, this);
     }
 
-    public void elementClick(WebElement element) {
-        element.click();
-    }
 }

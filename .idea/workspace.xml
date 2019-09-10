@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f276f4-c00e-45c4-a112-e9bf611d2dc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/DriverWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestAutomationFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestAutomationFramework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/SolventSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/SolventSelenium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/framework/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/HomePageTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568058765228</updated>
       <workItem from="1568058771592" duration="7726000" />
-      <workItem from="1568092602227" duration="2189000" />
+      <workItem from="1568092602227" duration="8513000" />
     </task>
     <servers />
   </component>

@@ -7,10 +7,12 @@ import org.openqa.selenium.WebDriver;
 public class TestBase {
 
     protected WebDriver driver;
+    public DriverWrapper browser;
 
     @Before
     public void setup() {
        driver = WebDriverFactory.getWebDriver();
+       browser = new DriverWrapper(driver);
     }
 
     @After
