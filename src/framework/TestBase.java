@@ -3,16 +3,24 @@ package framework;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
+import page.Header;
+import page.SignIn;
+import page.UserProfile;
 
 public class TestBase {
 
-    protected WebDriver driver;
-    public DriverWrapper browser;
+    private WebDriver driver;
+    protected Header header;
+    protected SignIn signIn;
+    protected UserProfile userProfile;
 
     @Before
     public void setup() {
        driver = WebDriverFactory.getWebDriver();
-       browser = new DriverWrapper(driver);
+       DriverWrapper browser = new DriverWrapper(driver);
+       header = new Header(browser);
+       signIn = new SignIn(browser);
+       userProfile = new UserProfile(browser);
     }
 
     @After

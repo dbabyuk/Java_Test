@@ -6,16 +6,28 @@ import org.openqa.selenium.WebElement;
 
 public class DriverWrapper {
 
-    public WebDriver driver;
-    public DriverWrapper(WebDriver driver) {
+    private WebDriver driver;
+    DriverWrapper(WebDriver driver) {
         this.driver = driver;
     }
 
-    public WebElement getElement(WebDriver driver, By Locator) {
+    private WebElement getElement(By Locator) {
          return driver.findElement(Locator);
     }
 
-    public void clickElement(WebDriver driver, By Locator) {
-        getElement(driver, Locator).click();
+    public void clickElement(By Locator) {
+        getElement(Locator).click();
+    }
+
+    public void clearElement(By Locator) {
+        getElement(Locator).clear();
+    }
+
+    public void enterData(By Locator, String data) {
+        getElement(Locator).sendKeys(data);
+    }
+
+    public String getAttributeValue(By key, String attr) {
+        return getElement(key).getAttribute(attr);
     }
 }
