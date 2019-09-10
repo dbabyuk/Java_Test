@@ -1,7 +1,7 @@
 package test;
 
 import framework.TestBase;
-import org.testng.annotations.Test;
+import org.junit.Test;
 import page.HomePage;
 
 public class HomePageTest extends TestBase {
