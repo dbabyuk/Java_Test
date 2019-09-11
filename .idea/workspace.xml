@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f276f4-c00e-45c4-a112-e9bf611d2dc4" name="Default Changelist" comment="">
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/DriverWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/DriverWrapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/Header.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/UserProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/UserProfile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/HeaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/HeaderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/DriverWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/DriverWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/UserProfile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/HeaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/HeaderTest.java" afterDir="false" />
->>>>>>> a8e78d23669a1d74a83e43b0929f5d0543003243
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,5 +130,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/framework/TestBase.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

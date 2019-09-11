@@ -3,25 +3,32 @@ package page;
 import framework.DriverWrapper;
 import org.openqa.selenium.By;
 
+import java.util.HashMap;
+
 public class UserProfile {
     private DriverWrapper browser;
 
+    public HashMap<String, By> fields = new HashMap<>();
+
     public UserProfile(DriverWrapper browser) {
         this.browser = browser;
+        fields.put("FIRST_NAME", By.id("firstName"));
+        fields.put("LAST_NAME", By.id("lastName"));
+        fields.put("EMAIL", By.id("email"));
+        fields.put("PHONE", By.id("phone"));
+        fields.put("COUNTRY", By.id("country"));
+        fields.put("CITY", By.id("city"));
+        fields.put("STREET", By.id("street"));
+        fields.put("BUILDING", By.id("building"));
+        fields.put("APARTMENT", By.id("apartment"));
+        fields.put("ZIP_CODE", By.id("zipCode"));
     }
 
-    protected By FIRST_NAME = By.id("firstName");
-    protected By LAST_NAME = By.id("lastName");
-    protected By BIRTHDAY = By.id("birthday");
-    protected By EMAIL = By.id("email");
-    protected By PHONE = By.id("phone");
-    protected By COUNTRY = By.id("country");
-    protected By CITY = By.id("city");
-    protected By STREET = By.id("street");
-    protected By BUILDING = By.id("building");
-    protected By APARTMENT = By.id("apartment");
-    protected By ZIP_CODE = By.id("zipCode");
+
+
     private By UPDATE_PROFILE = By.cssSelector("input[value='Update Profile']");
+
+
 
 
     private Boolean checkDataValidity(By key) {

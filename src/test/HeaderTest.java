@@ -2,10 +2,9 @@ package test;
 
 import framework.TestBase;
 import org.junit.Test;
-import org.openqa.selenium.By;
 
 public class HeaderTest extends TestBase {
-    private By FIRST_NAME = By.id("firstName");
+
     @Test
     public void testSimple() {
         header.clickIcon();
@@ -13,7 +12,10 @@ public class HeaderTest extends TestBase {
         signIn.enter_credentials("user@gmail.com", "user");
         header.clickIcon();
         header.selectOption("Profile");
-        userProfile.enterDataInTextbox(FIRST_NAME, "Andrew");
+        userProfile.enterDataInTextbox(userProfile.fields.get("FIRST_NAME"), "Andrew");
+        userProfile.enterDataInTextbox(userProfile.fields.get("LAST_NAME"), "Stuart");
+        userProfile.enterDataInTextbox(userProfile.fields.get("EMAIL"), "a@chnu.edu.ua");
+        userProfile.enterDataInTextbox(userProfile.fields.get("COUNTRY"), "USA");
         userProfile.clickUpdateProfile();
 
     }

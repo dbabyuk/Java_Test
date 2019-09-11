@@ -19,8 +19,9 @@ public class TestBase {
        driver = WebDriverFactory.getWebDriver();
        DriverWrapper browser = new DriverWrapper(driver);
        header = new Header(browser);
-       signIn = new SignIn(browser);
        userProfile = new UserProfile(browser);
+       signIn = new SignIn(browser);
+
     }
 
     @After
