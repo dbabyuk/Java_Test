@@ -3,6 +3,8 @@ package framework;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class DriverWrapper {
 
@@ -12,7 +14,9 @@ public class DriverWrapper {
     }
 
     private WebElement getElement(By Locator) {
-         return driver.findElement(Locator);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.presenceOfElementLocated(Locator));
+        return driver.findElement(Locator);
     }
 
     public void clickElement(By Locator) {

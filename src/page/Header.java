@@ -17,7 +17,6 @@ public class Header {
     private By DROPDOWN_LOGOUT = By.xpath("//a[ text()='Log out']");
 
 
-
     public void clickIcon() {
         browser.clickElement(ICON);
     }
