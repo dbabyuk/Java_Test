@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f276f4-c00e-45c4-a112-e9bf611d2dc4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/UserProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/UserProfile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/HeaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/HeaderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/UserProfile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/HeaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/HeaderTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +54,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HomePageTest">
-    <configuration name="HomePageTest" type="JUnit" factoryName="JUnit">
+  <component name="RunManager" selected="JUnit.HeaderTest">
+    <configuration name="HeaderTest" type="JUnit" factoryName="JUnit">
       <module name="TestAutomationFramework" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.HeaderTest" />
@@ -96,7 +92,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HomePageTest" />
+      <item itemvalue="JUnit.HeaderTest" />
       <item itemvalue="TestNG.HeaderTest" />
     </list>
   </component>
@@ -112,6 +108,7 @@
       <updated>1568058765228</updated>
       <workItem from="1568058771592" duration="7726000" />
       <workItem from="1568092602227" duration="21303000" />
+      <workItem from="1568220318981" duration="3287000" />
     </task>
     <servers />
   </component>
@@ -130,16 +127,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/framework/TestBase.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
