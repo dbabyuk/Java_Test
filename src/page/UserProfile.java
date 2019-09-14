@@ -15,7 +15,7 @@ public class UserProfile {
         fields.put("FIRST_NAME", By.id("firstName"));
         fields.put("LAST_NAME", By.id("lastName"));
         fields.put("EMAIL", By.id("email"));
-        fields.put("PHONE", By.id("phone"));
+        fields.put("PHONE", By.id("phoneNumber"));
         fields.put("COUNTRY", By.id("country"));
         fields.put("CITY", By.id("city"));
         fields.put("STREET", By.id("street"));
@@ -24,11 +24,7 @@ public class UserProfile {
         fields.put("ZIP_CODE", By.id("zipCode"));
     }
 
-
-
     private By UPDATE_PROFILE = By.cssSelector("input[value='Update Profile']");
-
-
 
 
     private Boolean checkDataValidity(By key) {
@@ -41,6 +37,11 @@ public class UserProfile {
         browser.enterData(key, value);
         return checkDataValidity(key);
     }
+
+    public String readDataInTextbox(By key) {
+        return browser.readData(key);
+    }
+
     public void clickUpdateProfile() {
         browser.clickElement(UPDATE_PROFILE);
     }

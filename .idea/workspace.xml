@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f276f4-c00e-45c4-a112-e9bf611d2dc4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/HeaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/HeaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/DriverWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/DriverWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/SignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/SignIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/UserProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/UserProfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/HeaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/DriverWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/DriverWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/SignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/HeaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/UserProfilePositiveTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +111,7 @@
     <configuration name="HomePageTest" type="JUnit" factoryName="JUnit">
       <module name="TestAutomationFramework" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.HeaderTest" />
+      <option name="MAIN_CLASS_NAME" value="test.UserProfilePositiveTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -110,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeaderTest" type="TestNG" nameIsGenerated="true">
+    <configuration name="UserProfilePositiveTest" type="TestNG" nameIsGenerated="true">
       <module name="TestAutomationFramework" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +129,7 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.HeaderTest" />
+      <option name="MAIN_CLASS_NAME" value="test.UserProfilePositiveTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -138,7 +147,7 @@
     <list>
       <item itemvalue="Application.PrepareDB" />
       <item itemvalue="JUnit.HomePageTest" />
-      <item itemvalue="TestNG.HeaderTest" />
+      <item itemvalue="TestNG.UserProfilePositiveTest" />
     </list>
     <recent_temporary>
       <list>

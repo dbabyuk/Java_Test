@@ -1,6 +1,7 @@
 package framework;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -34,4 +35,21 @@ public class DriverWrapper {
     public String getAttributeValue(By key, String attr) {
         return getElement(key).getAttribute(attr);
     }
+
+    public String readData(By Locator) {
+        int attempts = 0;
+        String output_1 = null;
+        while (attempts < 2) {
+            try {
+                WebElement elem = getElement(Locator);
+                output_1 = elem.getAttribute("ng-reflect-model");
+                break;
+            } catch (StaleElementReferenceException e) {
+                System.out.println(attempts);
+            }
+            attempts++;
+        }
+        return output_1;
+    }
+
 }
