@@ -28,8 +28,8 @@ class PrepareDB {
             String st;
             while ((st = br.readLine()) != null) {
                 statement.executeUpdate(st);
-                System.out.println(st);
             }
+            System.out.println("DataBase has been updated");
         }
         catch(SQLException e){
                 System.out.println("Connection failure.");

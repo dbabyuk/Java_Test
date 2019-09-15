@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import page.Header;
 import page.SignIn;
 import page.UserProfile;
+
 import java.io.IOException;
 
 @RunWith(JUnit4.class)
@@ -35,7 +36,7 @@ public class TestBase {
     }
 
     @After
-    public  void exitBrowser() {
+    public void exitBrowser() {
         driver.quit();
     }
 

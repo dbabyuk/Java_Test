@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f276f4-c00e-45c4-a112-e9bf611d2dc4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/UserProfileNegativeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/DriverWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/DriverWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/PrepareDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/PrepareDB.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/framework/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/SignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/SignIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/UserProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/page/UserProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/HeaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/DriverWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/DriverWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/UserProfilePositiveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/test/UserProfilePositiveTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/PrepareDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/PrepareDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/framework/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/SignIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/UserProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/HeaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/UserProfilePositiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/UserProfilePositiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/UserProfilePositiveTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +74,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dima\IdeaProjects\Java_Test\src\framework" />
       <recent name="C:\Users\Dima\IdeaProjects\Java_Test\framework" />
@@ -94,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HomePageTest">
+  <component name="RunManager" selected="JUnit.UserProfileNegativeTest">
     <configuration name="PrepareDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="framework.PrepareDB" />
       <module name="TestAutomationFramework" />
@@ -108,7 +108,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest" type="JUnit" factoryName="JUnit">
+    <configuration name="UserProfileNegativeTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="TestAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.UserProfileNegativeTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProfilePositiveTest" type="JUnit" factoryName="JUnit">
       <module name="TestAutomationFramework" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.UserProfilePositiveTest" />
@@ -146,8 +163,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.PrepareDB" />
-      <item itemvalue="JUnit.HomePageTest" />
+      <item itemvalue="JUnit.UserProfilePositiveTest" />
       <item itemvalue="TestNG.UserProfilePositiveTest" />
+      <item itemvalue="JUnit.UserProfileNegativeTest" />
     </list>
     <recent_temporary>
       <list>
@@ -201,6 +219,7 @@
       <workItem from="1568265737191" duration="901000" />
       <workItem from="1568378769843" duration="15796000" />
       <workItem from="1568460205031" duration="6726000" />
+      <workItem from="1568530973668" duration="3189000" />
     </task>
     <servers />
   </component>
